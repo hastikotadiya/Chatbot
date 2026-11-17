@@ -7,7 +7,7 @@ from langchain.chat_models import init_chat_model
 from langchain_core.messages import (AIMessage,SystemMessage,HumanMessage)
 load_dotenv()
 st.set_page_config(page_title="AI Chatbot",page_icon="🤖",layout="wide")
-st.title("🤖 AI Chatbot")  
+st.title("🤖 AI Chatbot")   
 CHAT_FILE = "chat_history.json" 
 SYSTEM_PROMPT = (
     "You are a helpful AI assistant. "
